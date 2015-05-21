@@ -4,6 +4,10 @@
  * and open the template in the editor.
 */
 
+/**
+ *
+ * @author Rodolfo Castillo Vidrio, Carlos Monzalvo Navarro, Hernández Domínguez Diego, Rojas Flores Fernando
+ */
 public class ProyectoFinal {
 
     public static void main(String[] args) 
