@@ -12,14 +12,22 @@ import java.lang.Math;
 public class NewtonRaphson 
 {
     public Funcion f;
-
+    
+    /**
+     * método que asigna valor a f
+     * @param la_funcion 
+     */
     public NewtonRaphson(Funcion la_funcion)
     {
         f = la_funcion;
     }
 
-
-
+    /**
+     * método calcular de tipo double
+     * @param valor_inicial atributo de tipo double
+     * @param tolerancia atributo de tipo double
+     * @return 
+     */
     public double calcular(double valor_inicial, double tolerancia)
     {
     	Derivador df = new Derivador(f);
