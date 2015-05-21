@@ -11,12 +11,18 @@
  */
 public class GaussJordan extends Gauss 
 {
-
+    /**
+     * método 
+     * @param n atributo de tipo entero
+     */	
     public GaussJordan(int n)
     {
         super(n);
     }
     
+    /**
+     * método de ciclos
+     */
     public void cicloJordan(){
 
     	//Cilco que normaliza el renglon pivote
