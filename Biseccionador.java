@@ -14,15 +14,29 @@ import java.lang.Math;
  */
 public class Biseccionador {
 
+     /**
+     * atributos de tipo double 
+     */
     public Funcion f;
     double ma, mb, c;
-
+    
+    /**
+     * método que asigna valores a ma, mb asigna una funcion
+     * @param a atributo de tipo double
+     * @param b atributo de tipo double
+     * @param la_funcion
+     */
     public Biseccionador(double a, double b, Funcion la_funcion){
     	ma = a;
     	mb = b; 
     	f = la_funcion;
     }
     
+     /**
+     * método que obtiene el resultado de c
+     * @param x atributo de tipo double
+     * @return devuelve c de tipo double
+     */
     public double calcular (double x){
     	
 
