@@ -13,6 +13,11 @@ public class EquisCuadradaMasUno implements Funcion
 {
     
     @Override
+    /**
+     * método que obtiene el resultado de Funcion
+     * @param x atributo de tipo double
+     * @return devuelve el resultado de la función
+     */
     public double Funcion(double x){
         return x*x + 1;
     }
