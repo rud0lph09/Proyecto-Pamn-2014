@@ -24,7 +24,7 @@ public class Biseccionador {
      * método que asigna valores a ma, mb asigna una funcion
      * @param a atributo de tipo double
      * @param b atributo de tipo double
-     * @param la_funcion
+     * @param la_funcion se le asigna a f
      */
     public Biseccionador(double a, double b, Funcion la_funcion){
     	ma = a;
