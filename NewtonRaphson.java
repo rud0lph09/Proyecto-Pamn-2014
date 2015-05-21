@@ -15,7 +15,7 @@ public class NewtonRaphson
     
     /**
      * método que asigna valor a f
-     * @param la_funcion 
+     * @param la_funcion es asignado a f
      */
     public NewtonRaphson(Funcion la_funcion)
     {
