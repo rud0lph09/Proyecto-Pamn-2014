@@ -24,26 +24,24 @@ public class ProyectoFinal {
 
         Biseccionador b1 = new Biseccionador(0,20,mi_funcion);
         resultado = b1.calcular(0.001);
-        System.out.println("equis somos chavos yoleando");
-        System.out.println("Debugging... Resultado de Bisección:  " + resultado);
+
+        NewtonRaphson nr1 = new NewtonRaphson(mi_funcion);
+        resultado = nr1.calcular(0.0, 0.0001);
         
-        // NewtonRaphson nr1 = new NewtonRaphson(mi_funcion);
-        // resultado = nr1.calcular(0.0, 0.0001);
-        
-        // DDNewton ddn1 = new DDNewton(4);
-        // ddn1.setXY(B, B);
+        DDNewton ddn1 = new DDNewton(4);
+        ddn1.setXY(B, B);
             
        
         
-        // Gauss g1 = new Gauss(4);
-        // g1.setA(A);
-        // g1.setB(B);
-        // X1 = g1.getX();
+        Gauss g1 = new Gauss(4);
+        g1.setA(A);
+        g1.setB(B);
+        X1 = g1.getX();
         
-        // GaussJordan gj = new GaussJordan(4);
-        // gj.setA(A);
-        // gj.setB(B);
-        // X2 = gj.getX();
+        GaussJordan gj = new GaussJordan(4);
+        gj.setA(A);
+        gj.setB(B);
+        X2 = gj.getX();
                         
     }
     

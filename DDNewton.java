@@ -37,12 +37,20 @@ public class DDNewton
     this.Y = Y;
   }    
 
+
   /**
    * método
    * @return devuelve polinomio de tipo double 
    */
   public double[] getPolinomio()
   {
+
+    // for (int i = 0; i = n - 1; i++){
+    //   for (int j = 0; i = n - 1; j++){
+    //     X[j][i+1] = (X([j+1][i] - X[j][i]);
+    //   }
+    // }
+
     double[] polinomio = {0.0, 0.0};
     return polinomio;
   }
