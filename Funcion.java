@@ -7,7 +7,7 @@
 
 /**
  * Se está creando una Interface Funcion
- * @author honoratosh
+ * @author Rodolfo Castillo Vidrio, Carlos Monzalvo Navarro, Hernández Domínguez Diego, Rojas Flores Fernando
  */
 
 
