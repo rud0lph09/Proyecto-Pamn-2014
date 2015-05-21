@@ -15,7 +15,7 @@ import java.lang.Math;
 public class Biseccionador {
 
      /**
-     * atributos de tipo double 
+     * atributos de tipo double para ma, mb y c
      */
     public Funcion f;
     double ma, mb, c;
