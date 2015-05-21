@@ -7,7 +7,7 @@
 
 /**
  *
- * @author honoratosh
+ * @author Rodolfo Castillo Vidrio, Carlos Monzalvo Navarro, Hernández Domínguez Diego, Rojas Flores Fernando
  */
 public class Derivador 
 {
