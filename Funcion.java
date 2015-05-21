@@ -6,7 +6,7 @@
 
 
 /**
- *
+ * Se está creando una Interface Funcion
  * @author honoratosh
  */
 
