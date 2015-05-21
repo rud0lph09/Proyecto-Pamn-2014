@@ -33,7 +33,7 @@ public class NewtonRaphson
     	Derivador df = new Derivador(f);
     	double error = 50; // para poder reducir hasta la tolerancia
     	while(error>tolerancia){
-    		valor_inicial = (valor_inicial - f.Funcion(valor_inicial)) / df.derivar(valor_inicial, tolerancia);
+    		valor_inicial = valor_inicial - (f.Funcion(valor_inicial)) / df.derivar(valor_inicial, tolerancia);
     		error = Math.abs(f.Funcion(valor_inicial));
     	}
         
