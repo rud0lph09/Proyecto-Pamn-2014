@@ -8,7 +8,9 @@ public class ProyectoFinal {
 
     public static void main(String[] args) 
     {
-        
+         /**
+         * matriz A y arreglos B,X1,X2 de tipo double y atributo de tipo double para resultado
+         */
         double [][] A = {{2,2,2,2},{2,2,2,2},{2,2,2,2},{2,2,2,2}};    //Matriz de 4 x 4
         double [] B = {2,2,2,2};     //Matriz de 4 x 1
         double [] X1 = {2,2,2,2};       //Matriz de 4 x 1
