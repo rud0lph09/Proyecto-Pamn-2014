@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Rodolfo Castillo Vidrio, Carlos Monzalvo Navarro, Hernández Domínguez Diego, Rojas Flores Fernando
+ * @author Rodolfo Castillo Vidrio, Pedro Carlos Monzalvo Navarro, Hernández Domínguez Diego, Rojas Flores Fernando
  */
 public class ProyectoFinal {
 
