@@ -13,11 +13,21 @@ public class Derivador
 {
   private Funcion f;
   
+  /**
+   * método
+   * @param la_funcion
+   */
   public Derivador(Funcion la_funcion)
   {
   	f = la_funcion;
   }
   
+   /**
+   * método que obtiene el resultado de derivar
+   * @param x atributo de tipo double
+   * @param delta_x atributo de tipo double
+   * @return devuelve el resultado de la función
+   */
   public double derivar(double x, double delta_x)
   {
   	// \frac {f(x_0+h) - f(x_0-h)} {h^2} 
